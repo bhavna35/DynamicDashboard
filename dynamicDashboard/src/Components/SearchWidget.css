@@ -1,0 +1,33 @@
+/* Search Widget Component */
+.app{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+/* .search-widget {
+  margin-bottom: 20px;
+} */
+
+.search-widget input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+.search-widget .search-results {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-widget .search-results h4 {
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.search-widget .search-results p {
+  color: #666;
+}

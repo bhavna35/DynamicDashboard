@@ -1,0 +1,113 @@
+/* src/components/Category.css */
+.category {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.category h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.widget-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Space between widgets */
+}
+
+.add-widget-wrapper {
+  padding: 15px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 250px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+ .add-widget-wrapper button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.add-widget-wrapper button:hover {
+  background-color: #0056b3;
+} 
+
+
+.widget {
+  padding: 15px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 250px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.widget h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.widget p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.widget button {
+  background-color: #dc3545;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.widget button:hover {
+  background-color: #c82333;
+}
+
+
+
+
+/* Form for adding a new widget */
+.add-widget-form {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Input fields for widget name and text */
+.add-widget-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 80%; /* Full width */
+}
+
+.add-widget-form button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-widget-form button:hover {
+  background-color: #218838;
+}
